@@ -12,3 +12,6 @@ Assignment to demonstrate how to set up a model and train it on an Arduino TinyM
 
 ## Homework 4:
 Wrote a python script to analyze the outcomes vs predictions of a dataset, precision, recall and ROC curve. Made a dataset of 10 images (some of dogs and some of not dogs) and trained a model to detect the dogs. Wrote a script to evaluate the model's accuracy.
+
+## Project 1:
+Used the CIFAR-10 dataset to train a CNN to recognize images of frogs. Used the Arduino IDE to deploy the model to an Arduino Nano33 BLE board. The light on the board turns green when a frog is detected in front of the camera.
