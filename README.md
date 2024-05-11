@@ -15,3 +15,6 @@ Wrote a python script to analyze the outcomes vs predictions of a dataset, preci
 
 ## Project 1:
 Used the CIFAR-10 dataset to train a CNN to recognize images of frogs. Used the Arduino IDE to deploy the model to an Arduino Nano33 BLE board. The light on the board turns green when a frog is detected in front of the camera.
+
+## Project 2:
+Used 25 .wav files of the word "banana" and .wav files of the word "yes" from the Google 30 dataset to train a machine learning model to recognize and classify a spoken word as "banana", "yes", silence, or unknown. Used methods of data augmentation such as pitch and time shifting to generate more .wav files to train the model on. Created a CNN and LSTM model to compare their results. Deployed the models to an Arduino Nano33 BLE board. The light on the board lit up green when the word "banana" or "yes" was recognized.
